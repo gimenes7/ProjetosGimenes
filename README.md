@@ -4,7 +4,7 @@ Repositório com os projetos desenvolvidos durante meus estudos de desenvolvimen
 
 ## 📁 Projetos
 
-### [Pokedex](pokedex)
+### [Pokedex](Pokedex)
 Aplicação web que consome a [PokeAPI](https://pokeapi.co/) para exibir uma listagem interativa de Pokémon, com busca e modal de detalhes.
 
 **Tecnologias:** HTML, CSS, JavaScript
