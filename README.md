@@ -1,10 +1,10 @@
 # ProjetosGimenes
 
-Repositório com os projetos desenvolvidos durante meus estudos de desenvolvimento web full stack pela STEP Computer Academy. Cada pasta contém um projeto independente, com seu próprio README detalhando tecnologias e funcionalidades específicas.
+Repositório com projetos que venho desenvolvendo para praticar e evoluir em desenvolvimento web. Cada pasta contém um projeto independente.
 
 ## 📁 Projetos
 
-### [Pokedex](./pokedex)
+### [Pokedex](Pokedex)
 
 Aplicação web que consome a [PokeAPI](https://pokeapi.co/) para exibir uma listagem interativa de Pokémon, com busca e modal de detalhes.
 
@@ -14,13 +14,9 @@ Aplicação web que consome a [PokeAPI](https://pokeapi.co/) para exibir uma lis
 
 _Novos projetos serão adicionados aqui conforme forem desenvolvidos._
 
-## 🛠️ Tecnologias gerais
+## 🛠️ Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript
 - React _(em progresso)_
-
-## 📌 Sobre
-
-Repositório criado para organizar e documentar minha jornada de aprendizado em desenvolvimento web.
