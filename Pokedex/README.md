@@ -23,4 +23,4 @@ Aplicação web que consome a [PokeAPI](https://pokeapi.co/) para listar Pokémo
 
 ## 📸 Preview
 
-![Preview da Pokedex](./imagens/screenshot.png)
+![Preview da Pokedex](./imagens/Screenshot%202026-09-13%20163645.png)
