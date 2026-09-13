@@ -1,6 +1,6 @@
 # ProjetosGimenes
 
-Repositório com os projetos desenvolvidos durante meus estudos de desenvolvimento web full stack pela STEP Computer Academy. Cada pasta contém um projeto independente, com seu próprio README detalhando tecnologias e funcionalidades específicas.
+Repositório com projetos que venho desenvolvendo para praticar e evoluir em desenvolvimento web. Cada pasta contém um projeto independente.
 
 ## 📁 Projetos
 
@@ -13,13 +13,9 @@ Aplicação web que consome a [PokeAPI](https://pokeapi.co/) para exibir uma lis
 
 *Novos projetos serão adicionados aqui conforme forem desenvolvidos.*
 
-## 🛠️ Tecnologias gerais
+## 🛠️ Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript
 - React *(em progresso)*
-
-## 📌 Sobre
-
-Repositório criado para organizar e documentar minha jornada de aprendizado em desenvolvimento web.
