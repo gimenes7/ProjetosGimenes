@@ -1,5 +1,5 @@
 const pokemonContainer = document.getElementsByClassName('pokeContainer');
-pokemonCount = 1281
+pokemonCount = 1025
 colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
@@ -30,7 +30,7 @@ const getPokemon = async (id) => {
     const response = await fetch(url);
     const data = await response.json();
     createPokemonCard(data);
-    console.log(data.types[0].type.name);
+
 }
 
 const createPokemonCard = (pokemon) => {
@@ -45,6 +45,13 @@ const createPokemonCard = (pokemon) => {
     const color = colors[type];
 
     pokemonEl.style.backgroundColor = color;
+    pokemonEl.addEventListener('click', () => {
+        document.getElementById('modal').style.display = 'flex';
+        document.getElementById('modalContent').style.backgroundColor = color;
+        document.getElementById('modalBody').innerHTML = `
+        ...
+    `;
+    });
 
     const pokemonInnerHTML = `
     <div class="img-container">
@@ -58,8 +65,25 @@ const createPokemonCard = (pokemon) => {
     `;
 
     pokemonEl.innerHTML = pokemonInnerHTML;
-
+    pokemonEl.addEventListener('click', () => {
+        document.getElementById('modal').style.display = 'flex';
+        document.getElementById('modalBody').innerHTML = `
+        <div class="img-container">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" alt="${name}">
+        </div>
+        <div class="info">
+            <span class="number">#${id}</span>
+            <h3 class="name">${name}</h3>
+            <div><small class="type">Type: <span>${type}</span></small></div>
+            <div><small class="height">Height: <span>${pokemon.height}</span></small></div>
+            <div><small class="weight">Weight: <span>${pokemon.weight}</span></small></div>
+            <div><small class="base-experience">Base Experience: <span>${pokemon.base_experience}</span></small></div>
+        </div>
+    `;
+    });
     pokemonContainer[0].appendChild(pokemonEl);
 }
-
+document.getElementById('closeModal').addEventListener('click', () => {
+    document.getElementById('modal').style.display = 'none';
+});
 fetchPokemons();

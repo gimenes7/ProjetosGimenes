@@ -17,11 +17,11 @@ body {
 h1 {
   letter-spacing: 5px;
 }
-
 #bem-vindo {
   color: #ffffff;
   font-size: 22px;
 }
+
 .pokeContainer {
   display: flex;
   flex-wrap: wrap;
@@ -30,7 +30,6 @@ h1 {
   margin: 0 auto;
   max-width: 1200px;
 }
-
 .pokemon {
   background-color: #97b3e6;
   border-radius: 20px;
@@ -39,7 +38,6 @@ h1 {
   padding: 20px;
   text-align: center;
 }
-
 .pokemonImg {
   display: flex;
   justify-content: center;
@@ -83,7 +81,7 @@ label button:hover {
 }
 
 #equipes {
-  background-color: #FF0000;
+  background-color: #ff0000;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -96,4 +94,33 @@ label button:hover {
 #equipes:hover {
   background-color: #810000;
   transition: 0.3s;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+#modalContent {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+#closeModal {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #333;
 }
