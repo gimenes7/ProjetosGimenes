@@ -22,3 +22,5 @@ Aplicação web que consome a [PokeAPI](https://pokeapi.co/) para listar Pokémo
 2. Abra o arquivo `index.html` no navegador (recomendado usar a extensão Live Server do VS Code)
 
 ## 📸 Preview
+
+![Preview da Pokedex](./imagens/screenshot.png)
